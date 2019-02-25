@@ -1,0 +1,176 @@
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  box-sizing: flex;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+Title {
+  font-size: 3em;
+  font-family: cursive;
+  caret-color: auto;
+  padding-left: 50%;
+  padding-right: 50%;
+}
+body {
+	font-size: 1em;
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+	background: white;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.container {
+	padding: 2px;
+	background: slategrey;
+  border-radius: 1px;
+	margin: 1px auto;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+.item {
+	color: red;
+	padding: 15px;
+	margin: 5px;
+	background: #3db5da;
+	border-radius: 3px;
+}
+
+/*************************
+Media Queries
+*************************/
+
+@media only screen and (min-width: 480px) {
+
+  nav a {
+    float: right;
+    width: 2%;
+    margin: 2 5 0 15%;
+    padding: 2px 10%;
+    margin-bottom: 0;
+  }
+
+  nav li:first-child a {
+    margin-left: 11;
+  }
+
+  nav li:last-child a {
+    margin-right: 0;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+
+  .title {
+    float: left;
+    font-size: 1.4em;
+  }
+
+  nav {
+    float: right;
+    width: 60%;
+  }
+
+  nav a {
+    padding: 15px 1%;
+  }
+
+      .main article {
+        float: left;
+        width: 57%;
+      }
+
+      .main aside {
+        float: right;
+        width: 38%;
+      }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  nav a {
+    padding: 25px 1%;
+  }
+
+}
+
+*************************
+Clearfix
+*************************
+    .clearfix:before,
+    .clearfix:after {
+      content: " ";
+      display: table;
+    }
+
+    .clearfix:after {
+      clear: both;
+    }
+
+    .clearfix {
+      *zoom: 1;
+    }
+
+
+
+Dropdown Button *
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+Dropdown button on hover & focus *
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+The container <div> - needed to position the dropdown content *
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+ Dropdown Content (Hidden by Default) *
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+Links inside the dropdown *
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+Change color of dropdown links on hover *
+.dropdown-content a:hover {background-color: #ddd}
+
+Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) *
+.show {display:block;}

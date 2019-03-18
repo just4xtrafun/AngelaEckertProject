@@ -1,3 +1,20 @@
+$(document).ready(function() {
+
+  // page is now ready, initialize the calendar...
+
+  $('#calendar').fullCalendar({
+    schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives'
+    // // put your options and callbacks here
+  })
+  var calendar = $('#calendar').fullCalendar('getCalendar');
+
+  calendar.on('dayClick', function(date, jsEvent, view) {
+    alert('clicked on ' + date.format());
+  });
+
+
+});
+
 
 
 /* When the user clicks on the button,
@@ -18,3 +35,8 @@ window.onclick = function(event) {
       }
     }
   }
+}
+
+$(document).ready(function(){
+    $('<form action="form2.html"></form>').appendTo('body');
+});

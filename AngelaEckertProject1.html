@@ -1,12 +1,37 @@
 
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel='stylesheet' href='fullcalendar/fullcalendar.css' />
+    <link rel='stylesheet' href='fullcalendar-scheduler-1.9.4/scheduler.css' />
+    <script src='fullcalendar/lib/jquery.min.js'></script>
+    <script src='fullcalendar/lib/moment.min.js'></script>
+    <script src='fullcalendar/fullcalendar.js'></script>
+    <script type='text/javascript' src='fullcalendar-scheduler-1.9.4/scheduler.js'></script>
+    <script type="text/javascript" src="AngelaEckert.js"></script>
+
+
+
+    <!-- <script>
+      // $(function() {
+      //
+      //   // page is now ready, initialize the calendar...
+      //
+      //   $('#calendar').fullCalendar({
+      //     // put your options and callbacks here
+      //   })
+      // });
+    </script> -->
+
+  </div><!-- /about -->
+
+
+
+
     <meta charset="utf-8">
 
       <link rel="stylesheet" type="text/css" href="AngelaEckert.css">
       <script type="AngelaEckert/javascript" src="jquery.min.js"></script>
-     <script type="text/css" src = "scripts/js"></script>
 
 <div class="container">
 
@@ -18,15 +43,11 @@
 </div>
       </head>
       <body>
+        <!-- navbar -->
+
+        <!-- /navbar -->
 
           <div class="container">
-
-
-                          <li><a href="#">2nd Floor</a></li>
-                          <li><a href="#">3rd Floor</a></li>
-                          <li><a href="#">4th Floor</a></li>
-                          <li><a href="#">5th Floor</a></li>
-                          <li><a href="#">6th Floor</a></li>
 
 
 
@@ -37,8 +58,41 @@
 
                   <article>
                       <Header>
-                          <h1>Contacts</h1>
+                          <h3>UPS Floors with Available Conference Rooms</h3>
                       <header>
+
+
+
+            <!-- Button Dropdown -->
+
+
+            <div class="dropdown">
+              <button class="dropbtn">2nd Floor</button>
+              <div class="dropdown-content">
+                <a href="form.html">International</a>
+                <a href="#">Global</a>
+                <a href="#">Legacy</a>
+              </div>
+            </div>
+
+            <div class="dropdown3">
+              <button class="dropbtn3">3rd Floor</button>
+              <div class="dropdown-content-3">
+                <a href="#">Training</a>
+                <a href="#">Meeting</a>
+              </div>
+
+            </div>
+
+
+
+
+            <!-- /Button Dropdown -->
+
+
+
+            <!-- /Hide Info
+
                           <h3>2nd Floor - Melissa Reiter</h3>
 
                       </header>
@@ -59,7 +113,7 @@
 
                      <section>
 
-                         <h3>6th Floor - Sarah Dillman</h3>
+                         <h3>6th Floor - Sarah Dillman</h3> -->
 
 
                     </section>
@@ -68,18 +122,24 @@
                 </article>
 
                   <aside>
-                      <h3>Calendar Goes Here</h3>
-                      <p>Date, Start Time, End Time, Drop down box</p>
+                      <h3>Conference Room Calendar</h3>
+                      <div id="calendar"></div>
+
                   </aside>
+
+
 
 
 
           <div class="footer-container">
 
-              <footer class="wrapper">
-                  <h3>1st priority is customer visits</h3>
+              <footer class="1st Priority is customer visits">
+
               </footer>
           </div>
+        <!--bootstrapcdn-->
+
+                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
       </body>

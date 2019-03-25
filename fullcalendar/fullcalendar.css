@@ -8,7 +8,7 @@
   text-align: left; }
 
 .fc-rtl {
-  text-align: right; }
+  text-align: inline-block; }
 
 body .fc {
   /* extra precedence to overcome jqui */

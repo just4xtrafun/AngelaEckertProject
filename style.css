@@ -3,24 +3,30 @@
 .footer {
   flex: 1;
 }
-
+line-break: strict;
+line-break: strict;
 
 .container {
   font-size: 3em;
+  font-weight: bold;
 	padding: 2px;
 	background: white;
   border-radius: 4px;
 	margin: 2px;
   box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
+line-break: strict;
+line-break: strict;
 
 .item {
-	color: red;
-	padding: 15px;
+	color: red;line-break: strict;x;
 	margin: 5px;
 	background: #3db5da;
 	border-radius: 6px;
 }
+
+line-break: strict;
+line-break: strict;
 
 .main-container {
 	padding: 2px;
@@ -30,8 +36,8 @@
   border-radius: 6px;
 }
 
-
-
+line-break: strict;
+line-break: strict;
 
 
 /*************************
@@ -40,14 +46,16 @@ Media Queries
 
 @media only screen and (min-width: 480px) {
 
+
   nav a {
     float: right;
-    width: 2%;
+    width: 100%;
     height: 2%;
     margin: 2 5 0 15%;
     padding: 2px 2%;
     margin-bottom: 0;
   }
+  line-break: strict;
 
   nav li:first-child a {
     margin-left: 11;
@@ -56,7 +64,12 @@ Media Queries
   nav li:last-child a {
     margin-right: 1;
   }
+  line-break: strict;
 
+  .main aside {
+    float: left;
+    width: 2%;
+  }
 }
 
 
@@ -65,46 +78,56 @@ Media Queries
 
   .title {
     float: left;
-    font-size: 1.2em;
-    margin: 6px;
+    font-size: 2em;
+    margin: 2px;
   }
+  line-break: strict;
+  line-break: strict;
+
+
 
   nav {
-    float: right;
+    float: left;
     width: 20%;
   }
+  line-break: strict;
 
   .title {
     font-size: 1.5em;
   }
+  line-break: strict;
 
       .main article {
         float: left;
-        width: 57%;
+        width: 2%;
       }
+      line-break: strict;
 
       .main aside {
-        float: right;
-        width: 39%;
+        float: left;
+        width: 2%;
       }
 
 }
 
 @media only screen and (min-width: 1140px) {
-
+line-break: strict;
   .wrapper {
     width: 1026px;
     margin: 0 auto;
 
   }
+  line-break: strict;
 
   .title {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
+  line-break: strict;
 
   nav a {
     padding: 25px 1%;
   }
+  line-break: strict;
 
 }
 
@@ -116,6 +139,7 @@ Clearfix
       content: " ";
       display: table;
     }
+    line-break: strict;
 
     .clearfix:after {
       clear: both;
@@ -129,6 +153,7 @@ Clearfix
     *************************/
 
     .dropbtn {
+      z-index: -1;
       background-color: #3d5c5c;
       color: white;
       padding: 16px;
@@ -174,6 +199,7 @@ Clearfix
     *************************/
 
     .dropbtn3 {
+      z-index: -1;
       background-color: #602040;
       color: white;
       padding: 16px;
@@ -219,6 +245,7 @@ Clearfix
     *************************/
 
     .dropbtn4 {
+      z-index: -1;
       background-color: #264d73;
       color: white;
       padding: 16px;
@@ -265,6 +292,7 @@ Clearfix
     *************************/
 
     .dropbtn5 {
+      z-index: -1;
       background-color: #6b6b47;
       color: white;
       padding: 16px;
@@ -311,6 +339,7 @@ Clearfix
     *************************/
 
     .dropbtn6 {
+      z-index: -1;
       background-color: #991f00;
       color: white;
       padding: 16px;
@@ -351,3 +380,5 @@ Clearfix
 
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown6:hover .dropbtn6 {background-color: #d6d6c2;}
+
+    line-break: strict;

@@ -5,8 +5,10 @@ $(document).ready(function() {
   $('#calendar').fullCalendar({
     schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives'
     // // put your options and callbacks here
-  })
+  });
   var calendar = $('#calendar').fullCalendar('getCalendar');
+
+  calendar.option('contentHeight', 'auto');
 
   calendar.on('dayClick', function(date, jsEvent, view) {
     alert('clicked on ' + date.format());
@@ -40,7 +42,3 @@ window.onclick = function(event) {
 var calendar = new Calendar(calendarEl, {
   schedulerLicenseKey: 'GPL-My-Project-Is-Open-Source'
 });
-
-@-ms-viewport{
-width: device-width;
-}

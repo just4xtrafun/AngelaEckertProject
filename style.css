@@ -1,29 +1,4 @@
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-  box-sizing: flex;
-}
 
-* {
-	box-sizing: 3em;
-}
-
-Title {
-  font-size: 8em;
-  font-family: cursive;
-  caret-color: blue;
-  padding-left: 50%;
-  padding-right: 50%;
-}
-body {
-	font-size: 1em;
-	font-family: 'Varela Round', sans-serif;
-	color: black;
-	background: white;
-	padding-left: -10%;
-	padding-right: 1%;
-}
 
 .footer {
   flex: 1;
@@ -91,7 +66,7 @@ Media Queries
   .title {
     float: left;
     font-size: 1.2em;
-    margin: 2px;
+    margin: 6px;
   }
 
   nav {
@@ -99,8 +74,8 @@ Media Queries
     width: 20%;
   }
 
-  nav a {
-    padding: 15px 10%;
+  .title {
+    font-size: 1.5em;
   }
 
       .main article {
@@ -124,7 +99,7 @@ Media Queries
   }
 
   .title {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   nav a {

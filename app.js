@@ -40,3 +40,7 @@ window.onclick = function(event) {
 var calendar = new Calendar(calendarEl, {
   schedulerLicenseKey: 'GPL-My-Project-Is-Open-Source'
 });
+
+@-ms-viewport{
+width: device-width;
+}
